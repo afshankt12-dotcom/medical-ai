@@ -1,4 +1,3 @@
-import sounddevice as sd
 import tempfile
 import scipy.io.wavfile as wav
 
@@ -6,6 +5,7 @@ try:
     import sounddevice as sd
     SOUND_AVAILABLE = True
 except Exception:
+    sd = None
     SOUND_AVAILABLE = False
 
 from faster_whisper import WhisperModel
@@ -67,4 +67,3 @@ class VoiceRecognizer:
             text += segment.text
 
         return text.strip()
-    from faster_whisper import WhisperModel
