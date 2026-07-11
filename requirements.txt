@@ -1,6 +1,11 @@
-numpy
+streamlit
+torch
+transformers
+sentence-transformers
 pandas
+numpy
 scikit-learn
-tensorflow
 nltk
-flask
+SpeechRecognition
+langdetect
+deep-translator
