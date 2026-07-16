@@ -278,3 +278,4 @@ This project is licensed under the MIT License.
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
 Afshan-Anshad
+streamlit link : https://medical-ai-ok.streamlit.app/
