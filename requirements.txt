@@ -6,10 +6,8 @@ pandas
 numpy
 scikit-learn
 nltk
-SpeechRecognition
 langdetect
 deep-translator
-sounddevice
 soundfile
 faster-whisper
 scipy
